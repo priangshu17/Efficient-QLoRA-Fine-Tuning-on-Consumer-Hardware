@@ -72,10 +72,7 @@ To visualize trade-offs between quality, time, and memory:
 ```bash
 python scripts/plot_results.py
 ```
-Plots are saved to: 
-```
-results/plots/
-```
+Plots are saved to: ``` results/plots ```
 
 ## Results and Analysis
 A full discussion of experimental findings, including:
