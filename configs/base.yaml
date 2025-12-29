@@ -1,0 +1,13 @@
+seed: 42
+max_length: 256
+
+output_dir: results/raw 
+
+data:
+  train_file: data/processed/gsm8k_train.jsonl
+  valid_file: data/processed/gsm8k_valid.jsonl 
+
+
+logging:
+  log_every_steps: 10
+  save_steps: 500

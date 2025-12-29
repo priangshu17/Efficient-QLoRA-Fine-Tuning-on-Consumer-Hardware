@@ -1,0 +1,8 @@
+torch
+datasets 
+transformers
+peft 
+bitsandbytes
+pyyaml
+matplotlib
+pandas

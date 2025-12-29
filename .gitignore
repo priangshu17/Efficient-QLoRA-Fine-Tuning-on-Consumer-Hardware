@@ -1,0 +1,66 @@
+# =========================
+# Python virtual environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Python cache & bytecode
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Hugging Face / Transformers
+# =========================
+.cache/
+.huggingface/
+**/.cache/
+
+# =========================
+# Model checkpoints & training artifacts
+# =========================
+**/checkpoints/
+**/checkpoint-*/
+**/*.pt
+**/*.bin
+**/*.safetensors
+
+# =========================
+# Raw experiment outputs (large / noisy)
+# =========================
+results/raw/
+results/**/events.out.tfevents.*
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Environment variables
+# =========================
+.env
+
